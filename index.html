@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Rodrigo Oliveira - Advocacia Urbanista</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3 { font-family: 'Playfair Display', serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="relative bg-cover bg-center h-[70vh]" style="background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1350&q=80')">
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Dr. Rodrigo Oliveira</h1>
+      <p class="text-lg md:text-2xl mb-6">Especialista em Direito Urbanístico e Ambiental</p>
+      <a href="#contato" class="bg-yellow-400 text-gray-900 font-semibold px-6 py-3 rounded-md hover:bg-yellow-300 transition">Agende sua consulta</a>
+    </div>
+  </header>
+
+  <!-- Sobre -->
+  <section class="py-16 px-6 max-w-4xl mx-auto">
+    <h2 class="text-3xl text-blue-900 font-bold mb-6 border-b-4 border-yellow-400 inline-block">Sobre o Dr. Rodrigo</h2>
+    <p class="mb-4">
+      Rodrigo Oliveira é advogado urbanista com mais de 15 anos de atuação em direito ambiental, planejamento urbano e regularização fundiária. Formado pela Universidade de Brasília (UnB), é reconhecido por sua atuação ética e eficaz.
+    </p>
+    <p>
+      O Direito Urbanístico é o ramo jurídico que trata da organização do espaço urbano, visando ao bem-estar social. A atuação do Dr. Rodrigo contribui diretamente para cidades mais justas e sustentáveis.
+    </p>
+  </section>
+
+  <!-- Serviços -->
+  <section class="py-16 bg-white px-6">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl text-blue-900 font-bold mb-6 border-b-4 border-yellow-400 inline-block">Áreas de Atuação</h2>
+      <ul class="grid gap-4 md:grid-cols-2 list-disc pl-6 text-lg text-gray-700">
+        <li>Regularização de Imóveis Urbanos</li>
+        <li>Consultoria para Projetos Habitacionais</li>
+        <li>Ações de Direito Ambiental Urbano</li>
+        <li>Assessoria para Prefeituras e Construtoras</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section class="py-16 px-6 bg-gray-100">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl text-blue-900 font-bold mb-6 border-b-4 border-yellow-400 inline-block">Depoimentos</h2>
+      <blockquote class="border-l-4 border-blue-900 pl-4 italic text-gray-700 mb-4">
+        “O Dr. Rodrigo me ajudou a regularizar meu lote depois de anos de espera. Atencioso e muito eficiente.” – Carlos M.
+      </blockquote>
+      <blockquote class="border-l-4 border-blue-900 pl-4 italic text-gray-700">
+        “Excelente profissional, sempre disponível e com conhecimento profundo. Recomendo!” – Ana L.
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-16 px-6">
+    <div class="max-w-xl mx-auto">
+      <h2 class="text-3xl text-blue-900 font-bold mb-6 border-b-4 border-yellow-400 inline-block">Entre em Contato</h2>
+      <form action="https://formsubmit.co/emanuelrecuero41@gmail.com" method="POST" class="space-y-4">
+        <input type="text" name="nome" placeholder="Seu nome" required class="w-full px-4 py-3 border border-gray-300 rounded-md">
+        <input type="email" name="email" placeholder="Seu e-mail" required class="w-full px-4 py-3 border border-gray-300 rounded-md">
+        <textarea name="mensagem" placeholder="Digite sua mensagem..." required class="w-full px-4 py-3 border border-gray-300 rounded-md"></textarea>
+        <button type="submit" class="w-full bg-blue-900 text-white py-3 rounded-md font-semibold hover:bg-blue-800 transition">Enviar</button>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://recuero-06.github.io/Aterrissagem-Adv/obrigado.html">
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-800 text-white py-6 text-center text-sm">
+    &copy; 2025 Dr. Rodrigo Oliveira. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
