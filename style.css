@@ -1,0 +1,291 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HERO */
+header {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background: #facc15;
+  color: #111;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #fcd34d;
+}
+
+/* SEÇÕES */
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-bottom: 4px solid #facc15;
+  display: inline-block;
+  color: #1e3a8a;
+}
+
+.sobre p {
+  margin-bottom: 1rem;
+}
+
+.atuacao ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.atuacao li {
+  margin-bottom: 10px;
+}
+
+/* CATÁLOGO */
+.catalogo p {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+/* DEPOIMENTOS */
+.depoimentos blockquote {
+  border-left: 4px solid #1e3a8a;
+  padding-left: 10px;
+  font-style: italic;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* CONTATO */
+.contato form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contato input,
+.contato textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contato button {
+  background: #1e3a8a;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contato button:hover {
+  background: #1e40af;
+}
+
+/* RODAPÉ */
+footer {
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(135deg, #0a1f44, #1c3d72);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  opacity: 0.1;
+}
+
+.hero-content {
+  position: relative;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #f4b400;
+  color: #111;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #d89b00;
+}
+
+/* Seções */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.sobre {
+  background: #f9f9f9;
+}
+
+.sobre h2, .contato h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #0a1f44;
+}
+
+.contato {
+  background: #eaf0f9;
+}
+
+/* ESTILOS ESPECÍFICOS PARA CADA PÁGINA */
+
+.pagina-principal header {
+  background-image: url('images/pagina_principal.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pagina-projetos header {
+  background-image: url('images/pagina-projetos.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Exemplo para uma página de projeto individual */
+.projeto1 header {
+  background-image: url('images/projeto1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Títulos dos Projetos */
+.title-projeto1 {
+  color: #fffb00;
+  scrollbar-shadow-color: #0a1f44;
+}
+.main-title {
+  font-size: xxx-large;
+}
+.sub-title {
+  margin-top: 22px;
+  font-size: larger;
+}
